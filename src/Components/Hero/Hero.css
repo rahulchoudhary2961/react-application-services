@@ -1,0 +1,118 @@
+.hero {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../Assets/my_assets/ezgif-frame-001.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.hero-text {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+}
+
+.hero-text h1 {
+    font-size: 65px;
+    line-height: 75px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+@keyframes slideFromRight {
+    from {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  h1 {
+    animation: slideFromRight 2s ease-out 600ms forwards;
+  }
+
+.fadeInUp {
+    animation-name: fadeInUpAnimation;
+    animation-duration: 2s;
+    animation-delay: 900ms;
+    animation-fill-mode: forwards;
+}
+
+.tryBtn2 {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    background-color: #cd853f;
+    padding: 10px 12px 10px 12px;
+    border: none;
+    color: white !important;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@keyframes fadeInUpAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+        /* Adjust as needed */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h2.custom-animation {
+    animation: fadeInUp 2s ease 900ms forwards;
+    /* Adjust delay and duration as needed */
+}
+
+
+.hero-text p {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+/* ------------media query---------- */
+
+@media (max-width:850px) {
+    .hero-text h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width:650px) {
+    .hero-text {
+        max-width: 400px;
+        /* Adjust the max-width as needed for smaller screens */
+        margin: auto;
+    }
+
+    .hero-text h1 {
+        font-size: 40px;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        margin: 15px auto;
+    }
+}
