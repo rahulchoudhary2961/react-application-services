@@ -28,16 +28,16 @@ export const Navbar = () => {
       <ul className={mobileMenu ? '' : "hide-mobile-menu"}>
         <li><Link to='hero' smooth={true} offset={0} duration={500}>Home</Link></li>
         <li><Link to='services' smooth={true} offset={10} duration={500}>Services</Link></li>
-        <li><Dropdown/></li>
+        <li><Dropdown /></li>
         <li><Link to='digital' smooth={true} offset={30}>Digital Commerce</Link></li>
         <li><Link to='about' smooth={true} offset={-100} duration={500}>About Us</Link></li>
         <li><Link to='contact' smooth={true} offset={-260} duration={500}><button class="tryBtn"><span className='text-white'>FREE CONSULTATION</span></button></Link></li>
         <li><Link to='contact' smooth={true} offset={-260} duration={500}><button class="contactusBtn"><span className='contact_us_text'>Contact Us</span></button></Link></li>
         <li className="linkedin-icon-container">
-    <a href='https://www.linkedin.com/in/rahul-choudhary-8a5321288/'>
-      <FontAwesomeIcon icon={faLinkedin} size="2x" className="linkedin-icon" />
-    </a>
-  </li>
+          <a href='https://www.linkedin.com/in/rahul-choudhary-8a5321288/'>
+            <FontAwesomeIcon icon={faLinkedin} size="2x" className="linkedin-icon" />
+          </a>
+        </li>
       </ul>
       <img src={menu_icon} alt="" className='menu_icon' onClick={toggleMenu} />
     </nav>

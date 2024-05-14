@@ -10,7 +10,7 @@ const About = () => {
         <div class="contact-wrap">
           <div class="sec-title mb-30">
             <div class="desc pb-35">
-            Does your company possess valuable expertise but struggles with stagnant sales? Are you a SaaS company aiming to accelerate revenue growth beyond your current pace? Engage with jblmlSolution to overcome two significant growth challenges.
+              Does your company possess valuable expertise but struggles with stagnant sales? Are you a SaaS company aiming to accelerate revenue growth beyond your current pace? Engage with jblmlSolution to overcome two significant growth challenges.
             </div>
             <ol className='lists'>
               <li className='list-1'><b>Disrupted Sales Operations</b> Sales process breakdowns often occur due to a lack of alignment between business and sales strategies. Efficiently managing sales teams and executing strategies can lead to improved outcomes. </li>

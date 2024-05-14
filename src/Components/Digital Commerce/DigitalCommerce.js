@@ -44,7 +44,7 @@ const DigitalCommerce = () => {
     return (
         <div id='digital'>
             <div className="DigitalCommerce-container">
-            <h1 className='heading'>DIGITAL COMMERCE</h1>
+                <h1 className='heading'>DIGITAL COMMERCE</h1>
                 <div className="slides-container">
                     {items.slice(startIndex, startIndex + 3).map((item) => (
                         <div key={item.id} className="slide">
