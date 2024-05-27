@@ -12,10 +12,10 @@ const Contact = () => {
 
     const onSubmit = async (event) => {
         event.preventDefault();
-        setResult("Sending....");
+        setResult("Submiting....");
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "03054050-f2ee-4193-af02-1c13e9694184");
+        formData.append("access_key", "3f3b88d4-0e12-4786-8ffc-de48549b9429");
 
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
@@ -41,9 +41,9 @@ const Contact = () => {
                     important to us as we strive to provide exceptional service to our
                     customers</p>
                 <ul>
-                    <li><img src={mail_icon} alt=''></img> rahulchoudhary2961@gmail.com </li>
-                    <li><img src={phone_icon} alt=''></img> +91 9668467975 </li>
-                    <li><img src={location_icon} alt=''></img> At-Bhubaneswar,Odisha </li>
+                    <li><img src={mail_icon} alt=''></img> jugajyoti03@gmail.com </li>
+                    <li><img src={phone_icon} alt=''></img> +91 7666945496 </li>
+                    <li><img src={location_icon} alt=''></img>JBML Solutions <br></br> Plot No : 1213/4022 , Phulbagh ,Garapur , Kendrapara , Odisha , 754211</li>
                 </ul>
             </div>
             <div className='contact-col'>

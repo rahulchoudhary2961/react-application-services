@@ -34,7 +34,7 @@ export const Navbar = () => {
         <li><Link to='contact' smooth={true} offset={-260} duration={500}><button class="tryBtn"><span className='text-white'>FREE CONSULTATION</span></button></Link></li>
         <li><Link to='contact' smooth={true} offset={-260} duration={500}><button class="contactusBtn"><span className='contact_us_text'>Contact Us</span></button></Link></li>
         <li className="linkedin-icon-container">
-          <a href='https://www.linkedin.com/in/rahul-choudhary-8a5321288/'>
+          <a href='https://www.linkedin.com'>
             <FontAwesomeIcon icon={faLinkedin} size="2x" className="linkedin-icon" />
           </a>
         </li>
